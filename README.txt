@@ -44,7 +44,7 @@ Preprocessing Procedure:
 				save path : the name of the file you want to save. NOTE: it is the name of FILE directly not the FOLDER.
 			
 			Example: 
-			makeBatch( "/home/wzhang/Fly_image/stage_resize_bmp_new/data_mean.mat", "/home/wzhang/Fly_image/label_names.txt", 612, 196608, "/home/rli/Fly_image/stage_resize_bmp_new/data.meta")
+			makeBatch( "/home/wzhang/Fly_image/stage_resize_bmp_new/data_mean.mat", "/home/wzhang/Fly_image/label_names.txt", 612, 196608, "/home/wzhang/Fly_image/label_names/Fly_image/stage_resize_bmp_new/data.meta")
  
  
 		P.S. if you want to know the content of some python format batch file:
