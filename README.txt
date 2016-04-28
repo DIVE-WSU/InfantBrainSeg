@@ -19,8 +19,7 @@ Preprocessing Procedure:
 			
 			load_path:  the folder name where bmps for some specific batch are saved 
 			save_path:  the folder name where you want some specific batch are saved 
-			label_input: the text file saving labels of each bmp file. I wrote the code in move_bmps.m such that
-						 this file is saved under the same folder of load_path automatically.
+			label_input: the text file saving labels of each bmp file. 
 		example:
 			makeBatch( "/home/wzhang/Fly_image/stage_resize_bmp_new/1", "/home/wzhang/Fly_image/stage_resize_bmp_new/data_batch_1", "/home/rli/Fly_image/stage_resize_bmp_new/1/label_input.txt" )
 	 (c) build python format meta files
@@ -39,9 +38,9 @@ Preprocessing Procedure:
 		   >>> makeBatch( mean_input, label_name_input,  num_cases_per_batch, dimension,save_path) 
 
 				mean_input : the mean vector produced by compute_mean.m. 
-				label_name_input : the label vector of each sample image . you have to type in manually. 
-				num_cases_per_batch : the number of bmps in each batch. you have to check the number of files in each batch folder and then type in manually.
-				dimension : the number of each image vector, e.g. 256*256*3. you have to type in manually. 
+				label_name_input : the label vector of each sample image. 
+				num_cases_per_batch : the number of bmps in each batch. 
+				dimension : the number of each image vector, e.g. 256*256*3.
 				save path : the name of the file you want to save. NOTE: it is the name of FILE directly not the FOLDER.
 			
 			Example: 
