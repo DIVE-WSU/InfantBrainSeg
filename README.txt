@@ -1,5 +1,4 @@
-This archive contains source code for the paper entitled: Deep convolutional neural networks for multi-modality isointense 
-infant brain image segmentation. Anyone is welcomed to use this code without notifying us after citing the following paper:
+This archive contains source code for the paper entitled: Deep convolutional neural networks for multi-modality isointense infant brain image segmentation. Anyone is welcomed to use this code without notifying us after citing the following paper:
 
 @article{Zhang:NI15,
 author = {Wenlu Zhang and Rongjian Li and Houtao Deng and Li Wang and Weili Lin and Shuiwang Ji and Dinggang Shen}, 
