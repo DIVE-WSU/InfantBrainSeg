@@ -21,7 +21,7 @@ Preprocessing Procedure:
 			save_path:  the folder name where you want some specific batch are saved 
 			label_input: the text file saving labels of each bmp file. 
 		example:
-			makeBatch( "/home/wzhang/Fly_image/stage_resize_bmp_new/1", "/home/wzhang/Fly_image/stage_resize_bmp_new/data_batch_1", "/home/rli/Fly_image/stage_resize_bmp_new/1/label_input.txt" )
+			makeBatch( "/home/wzhang/Fly_image/stage_resize_bmp_new/1", "/home/wzhang/Fly_image/stage_resize_bmp_new/data_batch_1", "/home/wzhang/Fly_image/stage_resize_bmp_new/1/label_input.txt" )
 	 (c) build python format meta files
 		(c.1) you have to produce the mean vector of all sample bmps.
 		  (hint : run compute_mean.m )
